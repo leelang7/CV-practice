@@ -27,7 +27,6 @@ def shearing(img, shear_factor):
     
 def show_image(img, name):
     img.save(name)
-    elice_utils.send_image(name)
 
 def main():
     img = Image.open("Lenna.png")
