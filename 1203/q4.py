@@ -15,4 +15,3 @@ if __name__ == "__main__":
     binary_img = binarization(img, threshold)
     
     cv2.imwrite("result.jpg", binary_img)
-    elice_utils.send_image('result.jpg')
