@@ -18,4 +18,3 @@ if __name__ == "__main__":
     # 복원 결과를 확인합니다.
     result_img = solve_puzzle(img, piece_order)
     cv2.imwrite('result.jpg', result_img) 
-    elice_utils.send_image('result.jpg')
