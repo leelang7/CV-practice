@@ -17,4 +17,3 @@ if __name__ == "__main__":
     histogram_img = cv2.resize(histogram_img, (256, 256))
     
     cv2.imwrite('result.jpg', histogram_img) 
-    elice_utils.send_image('result.jpg')
