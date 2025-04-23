@@ -1,0 +1,700 @@
+{
+  "filename": "1656041459409_Merged-LDR-AR+Near",
+  "parent_path": "batch_02_data/2022-06-24_12-30-50_ADCV1-ADP1/source_pointcloud/Merged-LDR-AR+Near",
+  "unix_timestamp": 1656041459409,
+  "file_format": "pcd",
+  "capacity": 6.8,
+  "vehicle_id": "AIMMO-ADCV1",
+  "region_name": "경기 성남시 분당구",
+  "location": "야탑동 487-1",
+  "length": 11,
+  "framerate": 10,
+  "size": "403200pts",
+  "data_purpose": "train",
+  "time": "day",
+  "road_feature": "r_cityroad",
+  "road_type": "normal",
+  "location_feature": "other",
+  "driving_scenario": "lane_following",
+  "ego_long_vel_level": "low",
+  "season": "summer",
+  "crowd_level": "high",
+  "scene_att": "scenario",
+  "weather": "clear",
+  "contamination": "reflection_from_dashboard-quarter",
+  "cloudiness": "broken",
+  "darkness_level": "bright",
+  "backlight": "no",
+  "road_surface_type": "asphalt",
+  "road_surface_features": "clear",
+  "road_surface_condition": "clear",
+  "shadow_in_line": "no",
+  "damaged_line": "no",
+  "sensor_name": "Merged-LDR-AR+Near",
+  "sensor_hfov": 360,
+  "sensor_vfov": 40,
+  "gps_mode": "rtk_float",
+  "gps_latitude": 37.41517535173553,
+  "gps_longitude": 127.12872208568835,
+  "long_velocity": 23.78,
+  "lat_velocity": 0.45,
+  "long_accel": 0.67,
+  "lat_accel": 0.12,
+  "yaw": 90.0,
+  "roll": 0.98,
+  "pitch": 2.21,
+  "rel_x": 0.0,
+  "rel_y": 0.0,
+  "annotations": [
+    {
+      "id": "2-fa5b0b7c-3fcb-4893-ae02-a04a5b2c42df",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -20.42,
+        24.13,
+        0.34
+      ],
+      "geometry": [
+        4.06,
+        1.8,
+        1.46
+      ],
+      "rotation": [
+        0.01,
+        0,
+        3.12
+      ],
+      "point_count": 273,
+      "track_id": 39,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 10.67
+    },
+    {
+      "id": "3-bd3aa631-532b-406f-9c9a-c49cb1cdfc75",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -49.33,
+        17.24,
+        0.85
+      ],
+      "geometry": [
+        4.1,
+        1.92,
+        1.53
+      ],
+      "rotation": [
+        0.05,
+        0,
+        3.14
+      ],
+      "point_count": 79,
+      "track_id": 35,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 12.01
+    },
+    {
+      "id": "4-116bd9b4-8dde-4691-b3a1-bcd5ae82968f",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        22.0,
+        7.04,
+        0.64
+      ],
+      "geometry": [
+        4.21,
+        2.02,
+        1.6
+      ],
+      "rotation": [
+        -0.01,
+        0,
+        0.0
+      ],
+      "point_count": 1227,
+      "track_id": 12,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 13.62
+    },
+    {
+      "id": "5-fe5fe72e-4a31-47f9-80c7-805916711848",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -30.87,
+        2.79,
+        1.16
+      ],
+      "geometry": [
+        4.5,
+        2.2,
+        1.68
+      ],
+      "rotation": [
+        0,
+        0,
+        0.07
+      ],
+      "point_count": 110,
+      "track_id": 33,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 16.63
+    },
+    {
+      "id": "6-1366934a-cc51-40b5-873d-cc5f4b8121da",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -12.77,
+        6.63,
+        0.92
+      ],
+      "geometry": [
+        4.76,
+        2.04,
+        1.66
+      ],
+      "rotation": [
+        0,
+        0,
+        0.01
+      ],
+      "point_count": 396,
+      "track_id": 32,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 16.12
+    },
+    {
+      "id": "7-6ede0e50-5f74-4709-80d7-e6adf807d168",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        18.6,
+        -0.52,
+        0.79
+      ],
+      "geometry": [
+        4.5,
+        2.22,
+        1.74
+      ],
+      "rotation": [
+        0,
+        0,
+        0.0
+      ],
+      "point_count": 1437,
+      "track_id": 1,
+      "occlusion": "0",
+      "scenario": "0",
+      "volume": 17.38
+    },
+    {
+      "id": "8-bba0200b-97d9-4cbf-9f39-87c5b2bdb63e",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        47.39,
+        2.95,
+        0.47
+      ],
+      "geometry": [
+        4.34,
+        2.1,
+        1.66
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.01
+      ],
+      "point_count": 140,
+      "track_id": 2,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 15.13
+    },
+    {
+      "id": "9-feb722d4-c1f9-469a-878d-a1967d501b04",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        45.45,
+        -3.44,
+        0.37
+      ],
+      "geometry": [
+        4.56,
+        1.96,
+        1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0.06
+      ],
+      "point_count": 72,
+      "track_id": 3,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 12.51
+    },
+    {
+      "id": "10-8a27becb-2015-4ce1-9e52-92cf715b938c",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        17.11,
+        -3.68,
+        0.66
+      ],
+      "geometry": [
+        4.37,
+        2.06,
+        1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0.0
+      ],
+      "point_count": 1829,
+      "track_id": 5,
+      "occlusion": "0",
+      "scenario": "0",
+      "volume": 12.61
+    },
+    {
+      "id": "11-07e1da98-b1a0-4191-8b4f-3769020b58a5",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -6.65,
+        -3.48,
+        0.88
+      ],
+      "geometry": [
+        4.5,
+        1.96,
+        1.44
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.02
+      ],
+      "point_count": 1206,
+      "track_id": 6,
+      "occlusion": "0",
+      "scenario": "0",
+      "volume": 12.7
+    },
+    {
+      "id": "12-5b7e926d-b865-49e2-84c8-fc1093535193",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        23.0,
+        3.25,
+        0.67
+      ],
+      "geometry": [
+        4.98,
+        2.13,
+        1.62
+      ],
+      "rotation": [
+        -0.01,
+        0,
+        0.01
+      ],
+      "point_count": 1033,
+      "track_id": 7,
+      "occlusion": "0",
+      "scenario": "0",
+      "volume": 17.15
+    },
+    {
+      "id": "13-33ba5096-5e8d-40e3-bacf-cb99eb9c48e2",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        6.1,
+        3.29,
+        0.76
+      ],
+      "geometry": [
+        4.88,
+        2.14,
+        1.44
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.03
+      ],
+      "point_count": 6705,
+      "track_id": 13,
+      "occlusion": "0",
+      "scenario": "0",
+      "volume": 15.04
+    },
+    {
+      "id": "14-9efb346b-8170-487d-91e3-afff4be8fd46",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -22.87,
+        -0.0,
+        0.93
+      ],
+      "geometry": [
+        4.5,
+        2,
+        1.42
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.01
+      ],
+      "point_count": 79,
+      "track_id": 14,
+      "occlusion": "0",
+      "scenario": "0",
+      "volume": 12.78
+    },
+    {
+      "id": "15-12e45b0f-d107-44a2-bb13-9c768d4488f7",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -12.69,
+        3.59,
+        0.98
+      ],
+      "geometry": [
+        4.5,
+        2.06,
+        1.72
+      ],
+      "rotation": [
+        0,
+        0,
+        0.0
+      ],
+      "point_count": 331,
+      "track_id": 24,
+      "occlusion": "0",
+      "scenario": "0",
+      "volume": 15.94
+    },
+    {
+      "id": "16-8c0d5afe-ecd5-45d4-ac8e-b708e5a51049",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -17.66,
+        17.14,
+        0.57
+      ],
+      "geometry": [
+        4.82,
+        1.9,
+        1.4
+      ],
+      "rotation": [
+        0.05,
+        0,
+        3.14
+      ],
+      "point_count": 305,
+      "track_id": 45,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 12.82
+    },
+    {
+      "id": "17-469790a7-504a-423c-b5f5-1b38addaf091",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        4.19,
+        7.15,
+        0.73
+      ],
+      "geometry": [
+        4.76,
+        1.88,
+        1.44
+      ],
+      "rotation": [
+        0,
+        0.01,
+        -0.03
+      ],
+      "point_count": 7783,
+      "track_id": 25,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 12.89
+    },
+    {
+      "id": "18-96bfbce8-0adc-4261-b3b2-7737bf48f70b",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -7.15,
+        13.48,
+        0.73
+      ],
+      "geometry": [
+        4.5,
+        2,
+        1.58
+      ],
+      "rotation": [
+        0.03,
+        0,
+        3.12
+      ],
+      "point_count": 1250,
+      "track_id": 41,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 14.22
+    },
+    {
+      "id": "19-df9acc7a-52d9-4669-a466-28081c651972",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        7.93,
+        23.83,
+        -0.03
+      ],
+      "geometry": [
+        4.74,
+        1.8,
+        1.44
+      ],
+      "rotation": [
+        0.04,
+        0,
+        3.13
+      ],
+      "point_count": 442,
+      "track_id": 40,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 12.29
+    },
+    {
+      "id": "20-e0148985-2039-4ff7-a27e-a676923341ab",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        17.32,
+        13.58,
+        0.56
+      ],
+      "geometry": [
+        4.5,
+        2.06,
+        1.66
+      ],
+      "rotation": [
+        0,
+        0,
+        3.13
+      ],
+      "point_count": 1243,
+      "track_id": 43,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 15.39
+    },
+    {
+      "id": "21-2ea6febc-156b-4890-8806-2057e404ce77",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        8.03,
+        17.0,
+        0.35
+      ],
+      "geometry": [
+        4.58,
+        1.88,
+        1.34
+      ],
+      "rotation": [
+        0.04,
+        0,
+        3.14
+      ],
+      "point_count": 452,
+      "track_id": 49,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 11.54
+    },
+    {
+      "id": "22-8a6bcf25-ca9b-4a86-800e-05b337ceea99",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        34.84,
+        20.27,
+        -0.08
+      ],
+      "geometry": [
+        4.5,
+        2.02,
+        1.34
+      ],
+      "rotation": [
+        0,
+        0,
+        3.12
+      ],
+      "point_count": 286,
+      "track_id": 55,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 12.18
+    },
+    {
+      "id": "23-551355c7-a143-4fc0-aa88-7f3cf05729ec",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        34.64,
+        17.01,
+        0.22
+      ],
+      "geometry": [
+        4.5,
+        2.14,
+        1.6
+      ],
+      "rotation": [
+        0.02,
+        0,
+        3.14
+      ],
+      "point_count": 348,
+      "track_id": 54,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 15.41
+    },
+    {
+      "id": "24-a3dd1815-8725-4dae-bc43-bf274d2eeaf9",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -24.21,
+        -3.55,
+        1.22
+      ],
+      "geometry": [
+        4.5,
+        2.04,
+        1.72
+      ],
+      "rotation": [
+        -0.01,
+        0,
+        -0.03
+      ],
+      "point_count": 137,
+      "track_id": 62,
+      "occlusion": "0",
+      "scenario": "0",
+      "volume": 15.79
+    },
+    {
+      "id": "25-b2eda5fb-1107-4c75-a86d-55c1dd1d0633",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -39.77,
+        7.02,
+        1.21
+      ],
+      "geometry": [
+        4.5,
+        1.8,
+        1.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0.03
+      ],
+      "point_count": 106,
+      "track_id": 63,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 13.77
+    },
+    {
+      "id": "26-1b61c0c2-3703-4f80-b9a1-4e74067e4061",
+      "type": "3dbb",
+      "label": "truck",
+      "position": [
+        -57.5,
+        7.15,
+        1.69
+      ],
+      "geometry": [
+        5.0,
+        1.86,
+        2.34
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.02
+      ],
+      "point_count": 84,
+      "track_id": 64,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 21.75
+    },
+    {
+      "id": "27-a8b1c223-9625-422f-896f-2beb84052350",
+      "type": "3dbb",
+      "label": "car",
+      "position": [
+        -54.0,
+        -3.68,
+        1.37
+      ],
+      "geometry": [
+        4.5,
+        2,
+        1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0.1
+      ],
+      "point_count": 73,
+      "track_id": 66,
+      "occlusion": "1",
+      "scenario": "0",
+      "volume": 14.4
+    }
+  ]
+}

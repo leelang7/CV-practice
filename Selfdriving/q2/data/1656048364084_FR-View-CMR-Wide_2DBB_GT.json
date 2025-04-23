@@ -1,0 +1,484 @@
+{
+  "filename": "1656048364084_FR-View-CMR-Wide_Undistorted",
+  "parent_path": "batch_02_data/2022-06-24_14-25-57_ADCV1-ADP1/source_image/FR-View-CMR-Wide",
+  "unix_timestamp": 1656048364071,
+  "file_format": "png",
+  "capacity": 2.22,
+  "vehicle_id": "AIMMO-ADCV1",
+  "region_name": "경기 성남시 분당구",
+  "location": "구미동 197-1",
+  "length": 13,
+  "framerate": 30,
+  "size": "1920*1024",
+  "data_purpose": "train",
+  "time": "day",
+  "road_feature": "r_cityroad",
+  "road_type": "normal",
+  "location_feature": "other",
+  "driving_scenario": "left_turn",
+  "ego_long_vel_level": "low",
+  "season": "summer",
+  "crowd_level": "high",
+  "scene_att": "scenario",
+  "weather": "clear",
+  "contamination": "no",
+  "cloudiness": "scattered",
+  "darkness_level": "bright",
+  "backlight": "no",
+  "road_surface_type": "asphalt",
+  "road_surface_features": "clear",
+  "road_surface_condition": "clear",
+  "shadow_in_line": "no",
+  "damaged_line": "no",
+  "sensor_name": "FR-View-CMR-Wide",
+  "sensor_hfov": 122,
+  "sensor_vfov": 74,
+  "gps_mode": "rtk_integer",
+  "gps_latitude": 37.33987857261642,
+  "gps_longitude": 127.10900496337868,
+  "long_velocity": 25.92,
+  "lat_velocity": 0.06,
+  "long_accel": 0.11,
+  "lat_accel": -1.96,
+  "yaw": 80.93,
+  "roll": 1.32,
+  "pitch": 2.29,
+  "rel_x": 0.0,
+  "rel_y": 0.0,
+  "annotations": [
+    {
+      "id": "2-426f4add-2091-4a99-a3c5-2e1b1609abd3",
+      "type": "2dbb",
+      "label": "vehicle",
+      "attribute": "bus_l",
+      "points": [
+        [
+          1380,
+          547
+        ],
+        [
+          1920,
+          547
+        ],
+        [
+          1920,
+          959
+        ],
+        [
+          1380,
+          959
+        ]
+      ],
+      "track_id": 3,
+      "occlusion": 0,
+      "truncation": 1,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 222480
+    },
+    {
+      "id": "3-e92f7961-4b59-4635-b70b-c0d1e3ad84cc",
+      "type": "2dbb",
+      "label": "vehicle",
+      "attribute": "car",
+      "points": [
+        [
+          828,
+          733
+        ],
+        [
+          921,
+          733
+        ],
+        [
+          921,
+          796
+        ],
+        [
+          828,
+          796
+        ]
+      ],
+      "track_id": 5,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 5859
+    },
+    {
+      "id": "4-3bb918d7-4ab5-48d5-8eda-d99a1dd75a31",
+      "type": "2dbb",
+      "label": "vehicle",
+      "attribute": "car",
+      "points": [
+        [
+          0,
+          726
+        ],
+        [
+          546,
+          726
+        ],
+        [
+          546,
+          1023
+        ],
+        [
+          0,
+          1023
+        ]
+      ],
+      "track_id": 6,
+      "occlusion": 0,
+      "truncation": 1,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 162162
+    },
+    {
+      "id": "10-89bd5d16-6fb5-4e66-89cd-18f616c266ab",
+      "type": "2dbb",
+      "label": "vehicle",
+      "attribute": "bus_l",
+      "points": [
+        [
+          758,
+          707
+        ],
+        [
+          802,
+          707
+        ],
+        [
+          802,
+          755
+        ],
+        [
+          758,
+          755
+        ]
+      ],
+      "track_id": 36,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 2112
+    },
+    {
+      "id": "11-a29b600a-fe8c-4a4d-8008-5b0c117e4457",
+      "type": "2dbb",
+      "label": "vehicle",
+      "attribute": "car",
+      "points": [
+        [
+          593,
+          729
+        ],
+        [
+          675,
+          729
+        ],
+        [
+          675,
+          787
+        ],
+        [
+          593,
+          787
+        ]
+      ],
+      "track_id": 7,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 4756
+    },
+    {
+      "id": "12-31d5156d-ddc9-40f4-a40e-d3e1f6fc79f1",
+      "type": "2dbb",
+      "label": "vehicle",
+      "attribute": "car",
+      "points": [
+        [
+          711,
+          728
+        ],
+        [
+          753,
+          728
+        ],
+        [
+          753,
+          763
+        ],
+        [
+          711,
+          763
+        ]
+      ],
+      "track_id": 32,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 1470
+    },
+    {
+      "id": "16-2c3d4477-576b-4da5-883e-170798799d2a",
+      "type": "2dbb",
+      "label": "vehicle",
+      "attribute": "truck_s",
+      "points": [
+        [
+          672,
+          728
+        ],
+        [
+          695,
+          728
+        ],
+        [
+          695,
+          754
+        ],
+        [
+          672,
+          754
+        ]
+      ],
+      "track_id": 39,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 598
+    },
+    {
+      "id": "2-1a5d6793-aaf8-490c-92e1-db30b8e70e1a",
+      "type": "2dbb",
+      "label": "traffic_light",
+      "attribute": "traffic_light",
+      "points": [
+        [
+          975,
+          337
+        ],
+        [
+          1096,
+          337
+        ],
+        [
+          1096,
+          375
+        ],
+        [
+          975,
+          375
+        ]
+      ],
+      "track_id": 304,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 4598
+    },
+    {
+      "id": "3-cff5aeae-7704-4c85-bbe1-b8c1f7d2f43b",
+      "type": "2dbb",
+      "label": "traffic_light",
+      "attribute": "traffic_light",
+      "points": [
+        [
+          1299,
+          360
+        ],
+        [
+          1416,
+          360
+        ],
+        [
+          1416,
+          398
+        ],
+        [
+          1299,
+          398
+        ]
+      ],
+      "track_id": 305,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 4446
+    },
+    {
+      "id": "4-74d94c24-48fe-46db-bd8d-2a2935b5fdc3",
+      "type": "2dbb",
+      "label": "traffic_light",
+      "attribute": "traffic_light",
+      "points": [
+        [
+          1566,
+          387
+        ],
+        [
+          1684,
+          387
+        ],
+        [
+          1684,
+          427
+        ],
+        [
+          1566,
+          427
+        ]
+      ],
+      "track_id": 306,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 4720
+    },
+    {
+      "id": "5-741e2873-f7d4-4c56-800d-816d9188df1f",
+      "type": "2dbb",
+      "label": "traffic_sign",
+      "attribute": "normal",
+      "points": [
+        [
+          1112,
+          313
+        ],
+        [
+          1181,
+          313
+        ],
+        [
+          1181,
+          380
+        ],
+        [
+          1112,
+          380
+        ]
+      ],
+      "track_id": 307,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 4623
+    },
+    {
+      "id": "6-93b951e2-351e-4677-bf65-f9936e994a58",
+      "type": "2dbb",
+      "label": "traffic_sign",
+      "attribute": "normal",
+      "points": [
+        [
+          1187,
+          316
+        ],
+        [
+          1255,
+          316
+        ],
+        [
+          1255,
+          387
+        ],
+        [
+          1187,
+          387
+        ]
+      ],
+      "track_id": 308,
+      "occlusion": 0,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 4828
+    },
+    {
+      "id": "8-bd1b4597-9b3e-4147-8838-c4772de36c3e",
+      "type": "2dbb",
+      "label": "traffic_sign",
+      "attribute": "unknown",
+      "points": [
+        [
+          1057,
+          615
+        ],
+        [
+          1071,
+          615
+        ],
+        [
+          1071,
+          647
+        ],
+        [
+          1057,
+          647
+        ]
+      ],
+      "track_id": 320,
+      "occlusion": 1,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 448
+    },
+    {
+      "id": "13-6746880a-80f4-4c9a-a455-0c3f4e289e63",
+      "type": "2dbb",
+      "label": "traffic_sign",
+      "attribute": "normal",
+      "points": [
+        [
+          474,
+          718
+        ],
+        [
+          509,
+          718
+        ],
+        [
+          509,
+          751
+        ],
+        [
+          474,
+          751
+        ]
+      ],
+      "track_id": 327,
+      "occlusion": 1,
+      "truncation": 0,
+      "scenario": 0,
+      "isfake": 0,
+      "ismask": 0,
+      "area": 1155
+    }
+  ]
+}
