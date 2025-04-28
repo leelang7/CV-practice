@@ -35,7 +35,7 @@ Python과 numpy를 이용해서 MSE를 직접 구현하고 올바른 오차값�
 a = np.array([8, 3, -3])
 b = np.array([3, 6, -6])
 a - b # 각 요소의 차인 [5, -3,  3]이 나옵니다.
-Copy
+
 ```
 
 - 제곱
@@ -46,7 +46,7 @@ Copy
 
 y = np.array([2, 3, 4])
 y ** 2 # 각 값의 제곱인 [4, 9, 16]이 나옵니다.
-Copy
+
 ```
 
 - 평균
@@ -73,7 +73,7 @@ MNIST 데이터셋은 아래와 같이 숫자 0부터 9까지의 수를 손으�
 
 ```
 from tensorflow.keras import layers, models, activations
-Copy
+
 ```
 
 **모델 생성 예시**
@@ -97,7 +97,7 @@ model.add(layers.Dense(64, activation='relu'))
 
 # 모델 구조 출력하기
 model.summary()
-Copy
+
 ```
 
 ## 지시사항
@@ -127,7 +127,7 @@ keras는 저명한 데이터셋들을 다운로드하고 바로 로드할 수 �
 
 ```
 (train_images, train_labels), (test_images, test_labels) = datasets.mnist.load_data()
-Copy
+
 ```
 
 **데이터 shape 변경**
@@ -139,7 +139,7 @@ train_images = train_images.reshape((60000, 28, 28, 1))
 
 # 테스트 셋은 10000개의 28x28 이진 이미지이므로 reshaping을 해줍니다.
 test_images = test_images.reshape((10000, 28, 28, 1))
-Copy
+
 ```
 
 **데이터 정규화**
@@ -148,7 +148,7 @@ Copy
 ```
 # 픽셀 값을 0~1 사이로 정규화합니다.
 train_images, test_images = train_images / 255.0, test_images / 255.0
-Copy
+
 ```
 
 **모델의 컴파일**
@@ -163,28 +163,28 @@ optimizer에선 GD, SGD, Adagrad, Adam 등이 있고 손실 함수는 MSE, categ
 model.compile(optimizer=optimizers.Adam(),
               loss=losses.sparse_categorical_crossentropy,
               metrics=[metrics.categorical_accuracy])
-Copy
+
 ```
 
 **모델 학습 함수**
 
 ```
 model.fit(train_images, train_labels, epochs=1)
-Copy
+
 ```
 
 **모델 평가 함수**
 
 ```
 test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
-Copy
+
 ```
 
 **모델 추론 함수**
 
 ```
 confidence = model.predict(test_img.reshape((1, row, col, channel)), verbose=2)
-Copy
+
 ```
 
 ## 지시사항
